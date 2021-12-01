@@ -32,207 +32,193 @@
 <body>
 
 <!-- ======= Top Bar ======= -->
-<section id="topbar" class="d-none d-lg-block">  
+<section id="topbar" class="d-none d-lg-block">
     <div class="container clearfix">
-        <div class="contact-info float-start">
-            <i class="icofont-envelope"></i><a href="mailto:contact@example.com">contact@example.com</a>
-            <i class="icofont-phone"></i> +1 5589 55488 55
-        </div>
-        <div class="social-links float-end">
-            <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-            <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-            <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-            <a href="#" class="skype"><i class="icofont-skype"></i></a>
-            <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
-        </div>
+      <div class="contact-info float-start">
+        <i class="icofont-envelope"></i><a href="mailto:contato@chainlight.com.br">contato@chainlight.com.br</a>
+        <i class="icofont-phone"></i><a href="https://wa.me/message/62SGEBEXJV2WL1">+55 (22) 99943-5421</a>
+      </div>
+      <div class="social-links float-end">
+        <a href="mailto:contato@chainlight.com.br" class="twitter"><i class="icofont-email"></i></a>
+        <a href="https://www.facebook.com/ChainLighttec/" class="facebook"><i class="icofont-facebook"></i></a>
+        <a href="https://www.instagram.com/chainlight_/" class="instagram"><i class="icofont-instagram"></i></a>
+        <a href="https://wa.me/message/62SGEBEXJV2WL1" class="skype"><i class="icofont-whatsapp"></i></a>
+        <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
+      </div>
     </div>
-</section>
+  </section>
 
-<!-- ======= Header ======= -->
-<header id="header">
+  <!-- ======= Header ======= -->
+  <header id="header">
     <div class="container">
 
-        <div class="logo float-start">
-            <h1 class="text-light"><a href="index.html"><span>Mamba</span></a></h1>
+      <div class="logo float-start">
+        <a href="index.html"><img src="{{ asset('img/logotext.png') }}" alt="" class="img-fluid mt-1"></a>
 
-        </div>
+      </div>
 
-        <nav class="nav-menu float-end d-none d-lg-block">
+      <nav class="nav-menu float-end d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#header">Inicio</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+         <!-- <li><a href="#team">Equipe</a></li>
+          <li class="drop-down"><a href="">Financiamento</a>
             <ul>
-                <li class="active"><a href="#header">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#team">Team</a></li>
-                <li class="drop-down"><a href="">Drop Down</a>
-                    <ul>
-                        <li><a href="#">Drop Down 1</a></li>
-                        <li class="drop-down"><a href="#">Drop Down 2</a>
-                            <ul>
-                                <li><a href="#">Deep Drop Down 1</a></li>
-                                <li><a href="#">Deep Drop Down 2</a></li>
-                                <li><a href="#">Deep Drop Down 3</a></li>
-                                <li><a href="#">Deep Drop Down 4</a></li>
-                                <li><a href="#">Deep Drop Down 5</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Drop Down 3</a></li>
-                        <li><a href="#">Drop Down 4</a></li>
-                        <li><a href="#">Drop Down 5</a></li>
-                    </ul>
-                </li>
-                <li><a href="#contact">Contact Us</a></li>
+              <li class="drop-down"><a href="financiamento.html">Painel Solar</a>
+                <ul>
+                  <li><a href="financiamento.html">BV Financeira</a></li>
+                  <li><a href="financiamento.html">Banco do Brasil</a></li>
+                </ul>
+              </li>
             </ul>
-        </nav><!-- .nav-menu -->
+          </li>-->
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
 
     </div>
-</header><!-- End Header -->
+  </header><!-- End Header -->
 
-<!-- ======= Hero Section ======= -->
-<section id="hero">
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
     <div class="hero-container">
-        <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
-            <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
-            <div class="carousel-inner" role="listbox">
+        <div class="carousel-inner" role="listbox">
 
-                <!-- Slide 1 -->
-                <div class="carousel-item active"
-                    style="background-image: url('{{ asset('img/slide/slide-1.jpg') }}');">
-                    <div class="carousel-container">
-                        <div class="carousel-content container">
-                            <h2 class="animated fadeInDown">Welcome to <span>Mamba</span></h2>
-                            <p class="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
-                                ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut.
-                                Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus
-                                et tempore modi architecto.</p>
-                            <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Slide 2 -->
-                <div class="carousel-item"
-                    style="background-image: url('{{ asset('img/slide/slide-2.jpg') }}');">
-                    <div class="carousel-container">
-                        <div class="carousel-content container">
-                            <h2 class="animated fadeInDown">Lorem Ipsum Dolor</h2>
-                            <p class="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
-                                ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut.
-                                Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus
-                                et tempore modi architecto.</p>
-                            <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Slide 3 -->
-                <div class="carousel-item"
-                    style="background-image: url('{{ asset('img/slide/slide-3.jpg') }}');">
-                    <div class="carousel-container">
-                        <div class="carousel-content container">
-                            <h2 class="animated fadeInDown">Sequi ea ut et est quaerat</h2>
-                            <p class="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
-                                ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut.
-                                Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus
-                                et tempore modi architecto.</p>
-                            <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url('{{ asset('img/slide/DESENVOLVIMENTO.png') }}');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animated fadeInDown">Desenvolvimento Web</h2>
+                <p class="animated fadeInUp">Sistemas melhoram, aceleram e viabilizam, aumentando a produtividade e lucratividade.</p>
+                <a href="#about" class="btn-get-started animated fadeInUp scrollto">Ver Mais</a>
+              </div>
             </div>
+          </div>
 
-            <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon icofont-rounded-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon icofont-rounded-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url('{{ asset('img/slide/SOLAR.png') }}');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animated fadeInDown">Energias renováveis</h2>
+                <p class="animated fadeInUp">Economia, sutentabilidade e rentabilidade.</p>
+                <a href="#about" class="btn-get-started animated fadeInUp scrollto">Ver Mais</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url('{{ asset('img/slide/MONITORAMENTO.png') }}');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animated fadeInDown">Sitemas de Segurança</h2>
+                <p class="animated fadeInUp">Sistema de segurança consiste no uso de um ou vários dispositivos de segurança que ajudam a preservar a segurança de um estabelecimento ou domicílio contra possíveis riscos.</p>
+                <a href="#about" class="btn-get-started animated fadeInUp scrollto">Ver Mais</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="carousel-item" style="background-image: url('{{ asset('img/slide/portal.png') }}">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animated fadeInDown">Portal</h2>
+                <p class="animated fadeInUp">Portal institucionais para prefeituras e instititucionais.</p>
+                <a href="#about" class="btn-get-started animated fadeInUp scrollto">Ver Mais</a>
+              </div>
+            </div>
+          </div>
 
         </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon icofont-rounded-left" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon icofont-rounded-right" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+
+      </div>
     </div>
-</section><!-- End Hero -->
+  </section><!-- End Hero -->
 
 
     @yield('content')
 
-<!-- ======= Footer ======= -->
-<footer id="footer">
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
     <div class="footer-top">
-        <div class="container">
-            <div class="row">
+      <div class="container">
+        <div class="row">
 
-                <div class="col-lg-3 col-md-6 footer-info">
-                    <h3>Mamba</h3>
-                    <p>
-                        A108 Adam Street <br>
-                        NY 535022, USA<br><br>
-                        <strong>Phone:</strong> +1 5589 55488 55<br>
-                        <strong>Email:</strong> info@example.com<br>
-                    </p>
-                    <div class="social-links mt-3">
-                        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-6 footer-links">
-                    <h4>Useful Links</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Our Services</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-4 col-md-6 footer-newsletter">
-                    <h4>Our Newsletter</h4>
-                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                    <form action="" method="post">
-                        <input type="email" name="email"><input type="submit" value="Subscribe">
-                    </form>
-
-                </div>
-
+          <div class="col-lg-3 col-md-6 footer-info">
+            <a href="index.html"><img src="assets/img/logo-branca.png" alt="" class="img-fluid mb-4" style="width: 80%"></a>
+            <p>
+             Arraial do Cabo <br>
+             Rio de Janeiro, Brasil<br><br>
+              <strong>Telefone:</strong> +55 (22) 99943-5421<br>
+              <strong>Email:</strong> contato@chainlight.com.br<br>
+            </p>
+            <div class="social-links mt-3">
+            <!--  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+              <a href="https://www.facebook.com/ChainLighttec/" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/chainlight_/" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://wa.me/message/62SGEBEXJV2WL1" class="google-plus"><i class="bx bxl-whatsapp"></i></a>
+              <a href="mailto:contato@chainlight.com.br" class="twitter"><i class="icofont-email"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Link uteis</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#header">Inicio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">Sobre</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Serviços</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Serviços</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Desenvolvimento Web</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Sistema de Segurança</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Rede de computadores</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Se inscreva</h4>
+            <p>Inscreva-se para receber novidades da ChainLight</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Inscrever">
+            </form>
+
+          </div>
+
         </div>
+      </div>
     </div>
 
     <div class="container">
-        <div class="copyright">
-            &copy; Copyright <strong><span>Mamba</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>chainlight</span></strong>. Todos direitos reservados
+      </div>
+      <div class="credits">
+        Design por <a href="https://www.chainlight.com.br/">ChainLight</a>
+      </div>
     </div>
-</footer>
-
-<!-- End Footer -->
+  </footer><!-- End Footer -->
 
 <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
