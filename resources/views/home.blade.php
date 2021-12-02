@@ -194,7 +194,7 @@
               <li data-filter=".filter-portal">Portais</li>
               <li data-filter=".filter-web">Sites</li>
 
-              
+
             <!-- Aguardando imagens
 
               <li data-filter=".filter-seg">Segurança</li>

@@ -5,10 +5,13 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Mamba Bootstrap Template - Index</title>
-    <meta content="" name="descriptison">
-    <meta content="" name="keywords">
+    <title>ChainLight Technology</title>
+    <meta content="Empresa do ramo da tecnologia, desenvolvimento e segurança" name="descriptison">
+    <meta content="site, desenvolvimento, portal, segurança, camera, cftv, desing" name="keywords">
+    <meta content="ChainLight" name="Author">
 
+
+    <link rel="icon" href="{{ URL::asset('img/favicon.ico') }}" type="image/x-icon"/>
 
     <!-- Google Fonts -->
 
