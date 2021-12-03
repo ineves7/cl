@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
 
 <head>
     <meta charset="utf-8">
@@ -7,7 +7,7 @@
 
     <title>ChainLight Technology</title>
     <meta content="Empresa do ramo da tecnologia, desenvolvimento e segurança" name="descriptison">
-    <meta content="site, desenvolvimento, portal, segurança, camera, cftv, desing" name="keywords">
+    <meta content="site, desenvolvimento, portal, segurança, camera, cftv, desing, painel, solar, energia" name="keywords">
     <meta content="ChainLight" name="Author">
 
 
@@ -98,8 +98,8 @@
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animated fadeInDown">Desenvolvimento Web</h2>
-                <p class="animated fadeInUp">Sistemas melhoram, aceleram e viabilizam, aumentando a produtividade e lucratividade.</p>
-                <a href="#about" class="btn-get-started animated fadeInUp scrollto">Ver Mais</a>
+              <!--  <p class="animated fadeInUp">Sistemas melhoram, aceleram e viabilizam, aumentando a produtividade e lucratividade.</p>
+              <a href="#about" class="btn-get-started animated fadeInUp scrollto">Ver Mais</a> -->
               </div>
             </div>
           </div>
@@ -109,8 +109,8 @@
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animated fadeInDown">Energias renováveis</h2>
-                <p class="animated fadeInUp">Economia, sutentabilidade e rentabilidade.</p>
-                <a href="#about" class="btn-get-started animated fadeInUp scrollto">Ver Mais</a>
+              <!--  <p class="animated fadeInUp">Economia, sutentabilidade e rentabilidade.</p>
+                <a href="#about" class="btn-get-started animated fadeInUp scrollto">Ver Mais</a> -->
               </div>
             </div>
           </div>
@@ -121,8 +121,8 @@
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animated fadeInDown">Sitemas de Segurança</h2>
-                <p class="animated fadeInUp">Sistema de segurança consiste no uso de um ou vários dispositivos de segurança que ajudam a preservar a segurança de um estabelecimento ou domicílio contra possíveis riscos.</p>
-                <a href="#about" class="btn-get-started animated fadeInUp scrollto">Ver Mais</a>
+              <!--  <p class="animated fadeInUp">Sistema de segurança consiste no uso de um ou vários dispositivos de segurança que ajudam a preservar a segurança de um estabelecimento ou domicílio contra possíveis riscos.</p>
+                <a href="#about" class="btn-get-started animated fadeInUp scrollto">Ver Mais</a> -->
               </div>
             </div>
           </div>
@@ -132,8 +132,8 @@
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animated fadeInDown">Portal</h2>
-                <p class="animated fadeInUp">Portal institucionais para prefeituras e instititucionais.</p>
-                <a href="#about" class="btn-get-started animated fadeInUp scrollto">Ver Mais</a>
+              <!--  <p class="animated fadeInUp">Portal institucionais para prefeituras e instititucionais.</p>
+                <a href="#about" class="btn-get-started animated fadeInUp scrollto">Ver Mais</a> -->
               </div>
             </div>
           </div>
@@ -215,7 +215,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>chainlight</span></strong>. Todos direitos reservados
+        &copy; Copyright <strong><span>CHAINLIGHT</span></strong>. Todos direitos reservados
       </div>
       <div class="credits">
         Design por <a href="https://www.chainlight.com.br/">ChainLight</a>
