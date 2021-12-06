@@ -120,7 +120,7 @@
           <div class="carousel-item" style="background-image: url('{{ asset('img/slide/MONITORAMENTO.png') }}');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animated fadeInDown">Sitemas de Segurança</h2>
+                <h2 class="animated fadeInDown">Sistemas de Segurança</h2>
               <!--  <p class="animated fadeInUp">Sistema de segurança consiste no uso de um ou vários dispositivos de segurança que ajudam a preservar a segurança de um estabelecimento ou domicílio contra possíveis riscos.</p>
                 <a href="#about" class="btn-get-started animated fadeInUp scrollto">Ver Mais</a> -->
               </div>
