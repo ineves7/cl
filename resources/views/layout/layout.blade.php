@@ -25,20 +25,14 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
 
-    <!-- =======================================================
-  * Template Name: Mamba - v2.0.1
-  * Template URL: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
 
 <!-- ======= Top Bar ======= -->
-<section id="topbar" class="">
+<section id="topbar">
     <div class="row " style="display: inline">
-      <div class="" style="padding: 0 11% 0 11%">
+      <div class="" style="padding: 0 11% 0 11%; margin-top: -15px">
         <div class="contact-info" style="position: relative; float:left;">
           <i class="icofont-envelope"></i><a href="mailto:contato@chainlight.com.br">contato@chainlight.com.br</a>
           <i class="icofont-phone"></i><a href="https://wa.me/message/62SGEBEXJV2WL1">+55 (22) 99943-5421</a>
