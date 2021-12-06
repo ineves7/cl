@@ -21,6 +21,7 @@
 
     <!-- Vendor CSS Files -->
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
 
@@ -35,51 +36,55 @@
 <body>
 
 <!-- ======= Top Bar ======= -->
-<section id="topbar" class="d-none d-lg-block">
-    <div class="container clearfix">
-      <div class="contact-info float-start">
-        <i class="icofont-envelope"></i><a href="mailto:contato@chainlight.com.br">contato@chainlight.com.br</a>
-        <i class="icofont-phone"></i><a href="https://wa.me/message/62SGEBEXJV2WL1">+55 (22) 99943-5421</a>
-      </div>
-      <div class="social-links float-end">
-        <a href="mailto:contato@chainlight.com.br" class="twitter"><i class="icofont-email"></i></a>
-        <a href="https://www.facebook.com/ChainLighttec/" class="facebook"><i class="icofont-facebook"></i></a>
-        <a href="https://www.instagram.com/chainlight_/" class="instagram"><i class="icofont-instagram"></i></a>
-        <a href="https://wa.me/message/62SGEBEXJV2WL1" class="skype"><i class="icofont-whatsapp"></i></a>
-        <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
+<section id="topbar" class="">
+    <div class="row " style="display: inline">
+      <div class="" style="padding: 0 11% 0 11%">
+        <div class="contact-info" style="position: relative; float:left;">
+          <i class="icofont-envelope"></i><a href="mailto:contato@chainlight.com.br">contato@chainlight.com.br</a>
+          <i class="icofont-phone"></i><a href="https://wa.me/message/62SGEBEXJV2WL1">+55 (22) 99943-5421</a>
+        </div>
+        <div class="social-links" style="position: relative; float:right;">
+          <a href="mailto:contato@chainlight.com.br" class="twitter"><i class="icofont-email"></i></a>
+          <a href="https://www.facebook.com/ChainLighttec/" class="facebook"><i class="icofont-facebook"></i></a>
+          <a href="https://www.instagram.com/chainlight_/" class="instagram"><i class="icofont-instagram"></i></a>
+          <a href="https://wa.me/message/62SGEBEXJV2WL1" class="skype"><i class="icofont-whatsapp"></i></a>
+          <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
+        </div>
       </div>
     </div>
-  </section>
+</section>
 
   <!-- ======= Header ======= -->
   <header id="header">
-    <div class="container">
+    <div class="conteiner" style="padding: 0 11% 0 11%; ">
 
-      <div class="logo float-start">
+      <div class="logo " style="position: relative; float:left;">
         <a href="index.html"><img src="{{ asset('img/logotext.png') }}" alt="" class="img-fluid mt-1"></a>
 
       </div>
 
-      <nav class="nav-menu float-end d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="#header">Inicio</a></li>
-          <li><a href="#about">Sobre</a></li>
-          <li><a href="#services">Serviços</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-         <!-- <li><a href="#team">Equipe</a></li>
-          <li class="drop-down"><a href="">Financiamento</a>
-            <ul>
-              <li class="drop-down"><a href="financiamento.html">Painel Solar</a>
-                <ul>
-                  <li><a href="financiamento.html">BV Financeira</a></li>
-                  <li><a href="financiamento.html">Banco do Brasil</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>-->
-          <li><a href="#contact">Contato</a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
+      <div class="" style="position: relative; float:right;">
+        <nav class="nav-menu  d-none d-lg-block">
+          <ul>
+            <li class="active"><a href="#header">Inicio</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+          <!-- <li><a href="#team">Equipe</a></li>
+            <li class="drop-down"><a href="">Financiamento</a>
+              <ul>
+                <li class="drop-down"><a href="financiamento.html">Painel Solar</a>
+                  <ul>
+                    <li><a href="financiamento.html">BV Financeira</a></li>
+                    <li><a href="financiamento.html">Banco do Brasil</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>-->
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav><!-- .nav-me  nu -->
+      </div>
 
     </div>
   </header><!-- End Header -->
@@ -163,7 +168,7 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <a href="index.html"><img src="assets/img/logo-branca.png" alt="" class="img-fluid mb-4" style="width: 80%"></a>
+            <a href="index.html"><img src="{{ asset('img/logo-branca.png') }}" alt="" class="img-fluid mb-4" style="width: 80%"></a>
             <p>
              Arraial do Cabo <br>
              Rio de Janeiro, Brasil<br><br>
@@ -228,6 +233,9 @@
 <!-- Template -->
 
 <script src="{{ mix('js/app.js')}}"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 </body>
 </html>
