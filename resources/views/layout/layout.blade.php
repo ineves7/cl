@@ -11,7 +11,8 @@
     <meta content="ChainLight" name="Author">
 
 
-    <link rel="icon" href="{{ URL::asset('img/favicon.ico') }}" type="image/x-icon"/>
+    <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
     <!-- Google Fonts -->
 
@@ -30,7 +31,7 @@
 <body>
 
 <!-- ======= Top Bar ======= -->
-<section id="topbar">
+<section id="topbar" class="d-none d-lg-block">
     <div class="row " style="display: inline">
       <div class="" style="padding: 0 11% 0 11%; margin-top: -15px">
         <div class="contact-info" style="position: relative; float:left;">

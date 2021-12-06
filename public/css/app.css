@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 --------------------------------------------------------------*/
 #topbar {
   background: #fff;
-  padding: 10px 0;
+  padding: 10px 10px;
   border-bottom: 1px solid #eee;
   font-size: 14px;
 }
@@ -339,7 +339,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #topbar .contact-info .icofont-phone {
   padding-left: 20px;
-  margin-left: 10px;
+  margin-left: 1px;
 }
 
 #topbar .social-links a {
@@ -800,10 +800,6 @@ section {
 
 .about .about-content {
   padding: 40px;
-}
-
-.about .icon-box + .icon-box {
-  margin-top: 40px;
 }
 
 .about .icon-box .icon {
