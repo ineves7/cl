@@ -21,7 +21,7 @@
 
             <div class="section-title">
               <h2>Sobre</h2>
-              <p>Fundada em 2021 a ChainLight Technology é uma empresa com uma vocação definida: desenvolver soluções de sucesso para negócios. A ChainLight, nasceu da idéia de oferecer soluções de qualidade no setor de desenvolvimento de sites e sistemas Web para pequenas, médias e grandes empresas de todo o Brasil, com o objetivo de proporcionar aos nossos clientes um novo conceito em desenvolvimento, que agregam valor e otimizam os seus negócios, possuindo ao mesmo tempo qualidade, responsabilidade e preço competitivo.</p>
+              <p>Fundada em 2021 a ChainLight Technology é uma empresa com uma vocação definida: desenvolver soluções de sucesso para negócios. A ChainLight, nasceu da idéia de oferecer soluções de qualidade no setor de desenvolvimento de sites e sistemas Web para empresas de todo o Brasil, com o objetivo de proporcionar aos nossos clientes um novo conceito em desenvolvimento, que agregam valor e otimizam os seus negócios, possuindo ao mesmo tempo qualidade, responsabilidade e competitividade.</p>
             </div>
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
@@ -167,9 +167,9 @@
             <p class="description">Sistemas de segurança consistem no uso de um ou vários dispositivos de segurança que ajudam a preservar a segurança de um estabelecimento ou domicílio contra possíveis riscos.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon"><i class="icofont-robot"></i></div>
-            <h4 class="title"><a href="">Automação Residencial (em Breve)</a></h4>
-            <p class="description">Utilização de robos para melhorar a sua qualidade de vida.</p>
+            <div class="icon"><i class="icofont-thunder-light"></i></div>
+            <h4 class="title"><a href="">Energias renováveis</a></h4>
+            <p class="description">Energia renovável, ou seja, aquela gerada sem a emissão de poluentes, com o mínimo de prejuízo à natureza, como a energia solar, energia eólica.</p>
           </div>
         </div>
 
