@@ -54,7 +54,7 @@
     <div class="conteiner" style="padding: 0 11% 0 11%; ">
 
       <div class="logo " style="position: relative; float:left;">
-        <a href="index.html"><img src="{{ asset('img/logotext.png') }}" alt="" class="img-fluid mt-1"></a>
+        <a href="#header"><img src="{{ asset('img/logotext.png') }}" alt="" class="img-fluid mt-1"></a>
 
       </div>
 
