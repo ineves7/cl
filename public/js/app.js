@@ -57,7 +57,7 @@ $("#header").sticky({
   zIndex: '50'
 }); // Smooth scroll for the navigation menu and links with .scrollto classes
 
-$(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function (e) {
+/*$(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function (e) {
   if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
     e.preventDefault();
     var target = $(this.hash);
@@ -92,7 +92,7 @@ $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function (e) {
       return false;
     }
   }
-}); // Mobile Navigation
+}); // Mobile Navigation*/
 
 if ($('.nav-menu').length) {
   var $mobile_nav = $('.nav-menu').clone().prop({

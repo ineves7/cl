@@ -29,7 +29,7 @@ import AOS from 'aos';
       zIndex: '50'
     });
 
-    // Smooth scroll for the navigation menu and links with .scrollto classes
+    /*// Smooth scroll for the navigation menu and links with .scrollto classes
     $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
         e.preventDefault();
@@ -64,7 +64,7 @@ import AOS from 'aos';
           return false;
         }
       }
-    });
+    });*/
 
     // Mobile Navigation
     if ($('.nav-menu').length) {
