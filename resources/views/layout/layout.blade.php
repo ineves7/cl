@@ -12,7 +12,6 @@
 
 
     <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
     <!-- Google Fonts -->
 
