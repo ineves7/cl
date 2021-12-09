@@ -12,6 +12,7 @@
 
 
     <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
+   
 
     <!-- Google Fonts -->
 
@@ -23,6 +24,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+</script>
 
 
 </head>
@@ -53,14 +55,14 @@
     <div class="conteiner" style="padding: 0 11% 0 11%; ">
 
       <div class="logo " style="position: relative; float:left;">
-        <a href="#header"><img src="{{ asset('img/logotext.png') }}" alt="" class="img-fluid mt-1"></a>
+        <a href="#topbar"><img src="{{ asset('img/logotext.png') }}" alt="" class="img-fluid mt-1"></a>
 
       </div>
 
       <div class="" style="position: relative; float:right;">
         <nav class="nav-menu  d-none d-lg-block">
           <ul>
-            <li class="active"><a href="#header">Inicio</a></li>
+            <li class="active"><a href="#topbar">Inicio</a></li>
             <li><a href="#about">Sobre</a></li>
             <li><a href="#services">Serviços</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
@@ -182,7 +184,7 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Link uteis</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#header">Inicio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#topbar">Inicio</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#about">Sobre</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#services">Serviços</a></li>
             </ul>

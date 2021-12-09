@@ -224,7 +224,7 @@
           </div>
 
           <!--Fim-->
-            <!--Portfolio item 2-->
+            <!--Portfolio item 2
             <div class="col-lg-4 col-md-6 portfolio-item filter-portal">
               <div class="portfolio-wrap">
                 <img src="{{ asset('img/portfolio/idacportal.png') }}" class="img-fluid" alt="">
@@ -237,7 +237,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <!--Fim-->
             <!--Portfolio item 3-->
